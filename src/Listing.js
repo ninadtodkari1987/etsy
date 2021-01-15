@@ -48,6 +48,8 @@ Listing.fromJSON = function(json) {
 }
 
 Listing.prototype.formatPrice = function() {
+  // 1. Correctly format prices and currencies.
+  // need to return concatenation of currency symbol, value and code here
   return this.price.toFixed(2);
 };
 

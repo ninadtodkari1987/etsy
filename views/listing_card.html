@@ -1,6 +1,8 @@
 <div class="listing-card">
   <div class="listing-favorite-icon-wrap">
-    <div 
+    <div
+            <!-- 4. When reloading the page, make sure favorited listings are displayed correctly. -->
+    <!-- Chech here if is_favorite is true, if yes, show the red heart, if required chnages to be done in CSS-->
       class="icon listing-favorite-icon <%= listing.is_favorite ? 'is-favorite' : '' %>"
       data-listing-id="<%= listing.listing_id %>"
       >
